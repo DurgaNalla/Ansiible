@@ -1,0 +1,9 @@
+- name: variables
+  hosts: localhost
+  vars:
+   wishes: morning
+  tasks:
+  - name: print iformation
+    ansible.builtin.debug:
+     msg: "hi good{{ wishes}}"
+  

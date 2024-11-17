@@ -1,0 +1,5 @@
+- name: ping the server
+  hosts: web
+  tasks:
+  - name: print the information
+    ansible.builtin.ping:
