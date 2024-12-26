@@ -8,6 +8,6 @@
     ansible.builtin.debug:
      msg: "hello iam learing {{course}} from {{trainer}}"
 
-   - name: print the variables
-     ansible.builtin.debug:
+  - name: print the variables
+    ansible.builtin.debug:
       msg: "hello iam learing {{course}} from {{trainer}}"  
